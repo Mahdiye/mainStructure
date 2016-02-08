@@ -1,0 +1,14 @@
+default:
+test:
+production:
+  path: /var/www/otolist.ir                      # Deployment path
+  stop: forever stop api/build/server.js      # Stop command for api/web server
+  start: forever start api/build/server.js    # Start command fo api/web server
+  history: 5                                  # How many old releases should be kept
+  git:
+    remote: git@api.github.com:tectual/otolist.git
+    branch: master
+  ssh:
+    host: 139.162.141.230
+    username: app
+    privateKey: /Users/arash/.ssh/ashmaclinode
