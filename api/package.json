@@ -1,5 +1,5 @@
 {
-  "name": "otolist",
+  "name": "my-oto",
   "version": "1.0.0",
   "description": "Car Sales System",
   "main": "src/server",
@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:tectual/otolist.git"
+    "url": ""
   },
   "keywords": [
     "tipi"
   ],
-  "author": "Arash Kay <a.karimzadeh@gmail.com> (http://tectual.com.au/)",
+  "author": "Kasra Kassai <seekasra@gmail.com> (http://geekhouse.ir)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tectual/otolist/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/tectual/otolist",
+  "homepage": "", 
   "dependencies": {
     "boom": "^2.7.2",
     "catbox-redis": "^1.0.4",
